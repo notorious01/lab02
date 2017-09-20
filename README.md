@@ -20,7 +20,7 @@ $ alias edit=<nano|vi|vim|subl>
 ```bash
 $ npm install -g gistup
 ```
-/*Сохранение токена в файл*/
+/* Сохранение токена в файл*/
 ```bash
 $ cat > ~/.gistup.json <<EOF
 {
@@ -37,8 +37,8 @@ $ mkdir -p workspace/labs/reports/
 ```
 
 ## Report
-/*Переход в "/workspace/labs/"*/
 ```bash
+/*Переход в "/workspace/labs/"*/
 $ cd ~/workspace/labs/
 /*Создание переменной*/
 $ export LAB_NUMBER=02

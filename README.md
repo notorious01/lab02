@@ -9,17 +9,18 @@
 - [x] 3. Составить отчет и отправить ссылку личным сообщением в **Slack**
  
 ## Tutorial
-
+/* Создание переменных*/
 ```bash
 $ export GITHUB_USERNAME=<имя_пользователя>
 $ export GIST_TOKEN=<сохраненный_токен>
+/*Текстовый редактор (выбрано vim)*/
 $ alias edit=<nano|vi|vim|subl>
 ```
-
+/* Установка gitsup*/
 ```bash
 $ npm install -g gistup
 ```
-
+/*Сохранение токена в файл*/
 ```bash
 $ cat > ~/.gistup.json <<EOF
 {
@@ -27,7 +28,7 @@ $ cat > ~/.gistup.json <<EOF
 }
 EOF
 ```
-
+/* Создание новых директорий*/
 ```bash
 $ cd ~
 $ mkdir -p workspace/labs/projects/
@@ -36,14 +37,20 @@ $ mkdir -p workspace/labs/reports/
 ```
 
 ## Report
-
+/*Переход в "/workspace/labs/"*/
 ```bash
 $ cd ~/workspace/labs/
+/*Создание переменной*/
 $ export LAB_NUMBER=02
+/*Клонирование*/
 $ git clone https://github.com/tp-labs/lab${LAB_NUMBER} tasks/lab${LAB_NUMBER}
+/*Создание новой директории*/
 $ mkdir reports/lab${LAB_NUMBER}
+/*Копирования файлов*/
 $ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md
+/*Переход в "reports/lab02"*/
 $ cd reports/lab${LAB_NUMBER}
+/*Редактирование файла*/
 $ edit REPORT.md
 $ gistup -m "lab${LAB_NUMBER}"
 ```

@@ -59,26 +59,26 @@ $ gistup -m "lab${LAB_NUMBER}"
 
 ### Unix commands
 
-- [ar](https://en.wikipedia.org/wiki/Ar_(Unix))
-- [cat](https://en.wikipedia.org/wiki/Cat_(Unix))
-- [cd](https://en.wikipedia.org/wiki/Cd_(command))
-- [cp](https://en.wikipedia.org/wiki/Cp_(Unix))
-- [cut](https://en.wikipedia.org/wiki/Cut_(Unix))
-- [echo](https://en.wikipedia.org/wiki/Echo_(command))
-- [env](https://en.wikipedia.org/wiki/Env_(shell))
-- [ex](https://en.wikipedia.org/wiki/Ex_(editor))
-- [file](https://en.wikipedia.org/wiki/File_(command))
-- [find](https://en.wikipedia.org/wiki/Find)
-- [ls](https://en.wikipedia.org/wiki/Ls)
-- [man](https://en.wikipedia.org/wiki/Man_page)
-- [mkdir](https://en.wikipedia.org/wiki/Mkdir)
-- [mv](https://en.wikipedia.org/wiki/Mv)
-- [nm](https://en.wikipedia.org/wiki/Nm_(Unix))
-- [ps](https://en.wikipedia.org/wiki/Ps_(Unix))
-- [pwd](https://en.wikipedia.org/wiki/Pwd)
-- [rm](https://en.wikipedia.org/wiki/Rm_(Unix))
-- [sed](https://en.wikipedia.org/wiki/Sed)
-- [touch](https://en.wikipedia.org/wiki/Touch_(Unix))
+- [ar](https://en.wikipedia.org/wiki/Ar_(Unix)) - архивирует файлы и директории
+- [cat](https://en.wikipedia.org/wiki/Cat_(Unix)) - последовательно выводит файлы, объединяя их в отдельный поток
+- [cd](https://en.wikipedia.org/wiki/Cd_(command)) - смена директории 
+- [cp](https://en.wikipedia.org/wiki/Cp_(Unix)) - копирование файлов или директорий
+- [cut](https://en.wikipedia.org/wiki/Cut_(Unix)) - вырезка данных из файла
+- [echo](https://en.wikipedia.org/wiki/Echo_(command)) - отображает строку текста
+- [env](https://en.wikipedia.org/wiki/Env_(shell)) - исполняет команду с изменением окружения
+- [ex](https://en.wikipedia.org/wiki/Ex_(editor)) - расширенный тестовый редактор с возможностью экранного редактирования 
+- [file](https://en.wikipedia.org/wiki/File_(command)) - определяет тип файла
+- [find](https://en.wikipedia.org/wiki/Find) - поиск файлов
+- [ls](https://en.wikipedia.org/wiki/Ls) - печатает в стандартный вывод содержимое каталогов
+- [man](https://en.wikipedia.org/wiki/Man_page) - форматирует и выводит справочные страницы
+- [mkdir](https://en.wikipedia.org/wiki/Mkdir) - создает директорию
+- [mv](https://en.wikipedia.org/wiki/Mv) - перемещает файлы или директории
+- [nm](https://en.wikipedia.org/wiki/Nm_(Unix)) - печатает информацию о бинарных файлах
+- [ps](https://en.wikipedia.org/wiki/Ps_(Unix)) - отчет о рабочих процессах
+- [pwd](https://en.wikipedia.org/wiki/Pwd) - текущий рабочий каталог
+- [rm](https://en.wikipedia.org/wiki/Rm_(Unix)) - удаляет файлы или директории
+- [sed](https://en.wikipedia.org/wiki/Sed) - потоковый текстовый редактор
+- [touch](https://en.wikipedia.org/wiki/Touch_(Unix)) - устанавливает время последнего доступа в файл)
 
 ### Package Managers
 
